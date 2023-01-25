@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding-top: 0;
+    box-sizing: border-box;
+}
+
+header
+{
+background-color: black;
+color: rgb(158, 69, 173);
+}
+
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 2,6rem;
+}
+li {
+    font-size: 2rem;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+nav {
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+
+}
+
+nav ul {
+    display: flex;
+    flex: 2 2 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-left: 40rem;
+
+}
+
+#logo {
+     flex: 1 1 40rem;
+     -webkit-text-stroke-width: 1px;
+     -webkit-text-stroke-color: white;
+}
+
+/* première image*/
+.page {
+    min-height: 90vh;
+    background: url("../image/VOITURE.webp");
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 263px 263px;
+}
+
+.page h2 {
+    padding: 1rem;
+    font-size: bold ;
+    font-size: 900%;
+}
+h1 {
+    font-size: 20pt;
+}
+h3 {
+    padding: 0,5rem;
+    font-size: 400%;
+}
+h4 {
+    font-size: 350%;
+}
+
+h5 {
+    
+}
+
+.bouton1 {
+    position: absolute;
+    bottom: 0px;
+    right: 200px;
+    background-color: rgb(183, 179, 184);
+    border-radius: 20px;
+   width: 170px;
+   height: 70px;
+   font-size: 300%;
+
+}
+.bouton2 {
+    position: absolute;
+    top: 160px;
+    left: 10px;
+    background-color: rgb(158, 69, 184);
+    border-radius: 10px;
+    width: 170px;
+    height: 70px;
+    font-size: 300%;
+    color: white;
+}
+span {
+    color: rgb(158, 69, 173);
+}
+h6 {
+font-size: 6rem;
+color: black;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/*SERVICES*/
+
+.Services h6 {
+    text-align: center;
+}
+image {
+    align-items: center;
+
+}
