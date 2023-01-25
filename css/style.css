@@ -55,7 +55,7 @@ nav ul {
 /* première image*/
 .page {
     min-height: 90vh;
-    background: url("../image/VOITURE.webp");
+    background: url("../Image/VOITURE.webp");
     background-size: cover;
     background-position: center;
     color: white;
