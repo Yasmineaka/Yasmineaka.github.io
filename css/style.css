@@ -55,7 +55,7 @@ nav ul {
 /* première image*/
 .page {
     min-height: 90vh;
-    background: url("./Image/VOITURE.webp");
+    background: url("../Image/VOITURE.webp");
     background-size: cover;
     background-position: center;
     color: white;
@@ -124,7 +124,134 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .Services h6 {
     text-align: center;
 }
-image {
-    align-items: center;
+.images {
+    margin: auto;
+    display: flex;
+    position: absolute;
+    object-position: center;
+}
+.A {
+    width: 690px;
+    height: 350px;
+    border-radius: 100px 100px;
+    object-fit: cover;
+    
+}
+.B {
+    width: 690px;
+    height: 350px;
+    border-radius: 100px 100px 100px; 
+}
+.C {
+    width: 690px;
+    height: 350px;
+    border-radius: 100px 100px 100px;
+}
 
+
+/* Images MARQUES*/
+
+.marques  {
+    font-size: bold;
+    font-size: 6rem;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-top: 6.5em;
+}
+
+
+    /*Images des marques*/
+
+.rectangles {
+    display: flex;
+    justify-content: center ;
+    text-align: center;
+
+}
+.rectangles h1,h2 {
+    color: #716666;
+}
+.rectangles h3 {
+    color: #87BDCE;
+}
+
+
+.Voiture {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.voiture-image {
+    background: red;
+    background-image: url("../Image/voiture12.png");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+.Camion {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.camion-image {
+    background: red;
+    background-image: url("../Image/VOITURE2.jpeg");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+.Moto {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.moto-image {
+    background: red;
+    background-image: url("../Image/S1-moto-electrique-suzuki-estime-qu-il-est-encore-trop-tot-pour-se-lancer-634822.jpeg");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+.Car {
+    background: white;
+    width: 400px;
+    height: 550px;
+    margin: 8px;
+    border: 1px solid #87BDCE;
+}
+.car-image {
+    background: white;
+    background-image: url("../Image/CAR.png");
+    background-size: cover;
+    height: 235px;
+    margin-bottom: 12px;
+}
+
+/* images pièces*/
+.pièces {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 350px;  
+    padding: 3cm;
+}
+.D {
+    width: 690px;
+    height: 350px;  
+}
+
+.E {
+    width: 690px;
+    height: 350px;
 }
