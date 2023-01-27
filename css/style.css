@@ -70,6 +70,7 @@ nav ul {
     padding: 1rem;
     font-size: bold ;
     font-size: 900%;
+    color: white;
 }
 h1 {
     font-size: 20pt;
@@ -185,7 +186,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #87BDCE;
 }
 .voiture-image {
-    background: red;
+    background: white;
     background-image: url("../Image/voiture12.png");
     background-size: cover;
     height: 235px;
@@ -200,7 +201,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #87BDCE;
 }
 .camion-image {
-    background: red;
+    background: white;
     background-image: url("../Image/VOITURE2.jpeg");
     background-size: cover;
     height: 235px;
@@ -215,7 +216,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border: 1px solid #87BDCE;
 }
 .moto-image {
-    background: red;
+    background: white;
     background-image: url("../Image/S1-moto-electrique-suzuki-estime-qu-il-est-encore-trop-tot-pour-se-lancer-634822.jpeg");
     background-size: cover;
     height: 235px;
@@ -254,4 +255,66 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .E {
     width: 690px;
     height: 350px;
+}
+
+
+.rectangles .Avendre {
+    cursor: pointer;
+    display: inline;
+    text-decoration: none;
+    color: rgb(164, 162, 168);
+    background-color: rgb(72, 68, 68);
+    padding: 1em 2em;
+}
+
+
+/* FOOTER*/
+ .footer {
+    top: 4cm;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 305px;  
+    padding: 3cm;
+    background-color: #716666;
+    text-align: center;
+}
+   
+ 
+ .1 {
+    max-width: 1170px;
+    background-color: white;
+    margin: auto; 
+ }
+ .2 {
+    display: flex;
+    flex-wrap: wrap;
+   
+ }
+ ul {
+    list-style: none;
+ }
+ .footer-col {
+    width: 1000%;
+    list-style: none;
+    text-decoration: none;
+ }
+ .Réseau-sociaux {
+    top: 15cm;
+    padding: 3.5cm;
+    font-size: 20px;
+    
+ }
+ .fin {
+ top: 4cm;
+ margin: auto;
+ display: flex;
+ justify-content: center;
+ position: relative;
+ height: 1px;  
+ padding: 1cm;
+ background-color: rgb(8, 7, 7);
+ text-align: center;
+ color: white;
 }
