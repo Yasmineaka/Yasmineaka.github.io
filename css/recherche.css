@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+* {
+
+    font-size: 30px;
+   
+}
+.selection-de-recherche {
+    transform: translate(40% , 1%); 
+    line-height: 50px;
+}
+.rechercher {
+    text-align: center;
+  
+}
+.bouton-de-recherche {
+    transform: translate(350% , 100%);  
+   background-color: rgb(144, 137, 142);
+    
+}
+.A {
+    background-color: rgb(202, 205, 209);
+    height: 20cm;
+    width: 25cm;
+    transform: translate(50% , 5%);
+    border-radius: 50px 80px / 20px 100px;
+}
